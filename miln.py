@@ -66,7 +66,7 @@ yValsM = trueYVals[:4]
 
 """ Getting solution using Miln-method """
 
-for i in xrange(4, n):
+for i in xrange(5, n):
     if abs(d) < eps:
         ydVals.append(yVals[i - 3] + (3 * h) / 2 * (
             7 * funY(X[i - 3], yVals[i - 3]) - funY(X[i - 2], yVals[i - 2]) + 2 * funY(X[i - 1], yVals[i - 1])))
